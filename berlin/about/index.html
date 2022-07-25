@@ -17,7 +17,7 @@
     
     
       
-        <title>Hilfe - WaMaDaPa</title>
+        <title>Hilfe - Was Macht Das Parlament</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#wamadapa-was-macht-das-berliner-parlament" class="md-skip">
+        <a href="#was-macht-das-parlament" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="WaMaDaPa" class="md-header__button md-logo" aria-label="WaMaDaPa" data-md-component="logo">
+    <a href=".." title="Was Macht Das Parlament" class="md-header__button md-logo" aria-label="Was Macht Das Parlament" data-md-component="logo">
       
   <img src="../bear.png" alt="logo">
 
@@ -90,7 +90,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            WaMaDaPa
+            Was Macht Das Parlament
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -163,15 +163,30 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="WaMaDaPa" class="md-nav__button md-logo" aria-label="WaMaDaPa" data-md-component="logo">
+    <a href=".." title="Was Macht Das Parlament" class="md-nav__button md-logo" aria-label="Was Macht Das Parlament" data-md-component="logo">
       
   <img src="../bear.png" alt="logo">
 
     </a>
-    WaMaDaPa
+    Was Macht Das Parlament
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feed/" class="md-nav__link">
+        Feed
+      </a>
+    </li>
+  
+
     
       
       
@@ -335,33 +350,33 @@
                 
 
 
-<h1 id="wamadapa-was-macht-das-berliner-parlament">WaMaDaPa: Was Macht Das (Berliner) Parlament?!</h1>
+<h1 id="was-macht-das-parlament">Was Macht Das Parlament?!</h1>
 <p>Auf dieser Webseite sollen die verschiedenen Vorgänge des Berlnier Parlaments anschaulich dargestellt werden.
-Die Daten, die hier angeboten werden stammen alle aus dem <a href="https://www.parlament-berlin.de/">Webafutritt des Berliner parlaments</a>
-Links kannst du zum Beispiel Listen von Parteien, Abgeordneten oder Schlagworten sehen.
+Die Daten, die hier angeboten werden stammen alle vom <a href="https://www.parlament-berlin.de/">Webafutritt des Berliner parlaments</a>
+Links kannst du zum Beispiel Listen von Parteien, Abgeordneten oder Schlagworten sehen, oder durch den Feed der Arbeit scrollen.
 Oder probier doch mal die Suche rechts oben? </p>
 <p>Du hast einen Fehler entdeckt?
-Habe ich etwas offensichtliches nicht gut aufbearbeitet?
-Willst du vielleicht bei dem Projekt sogar mitmachen?
-Jetzt heißt es nicht ärgern, sondern aktiv werden!
-Schick mir doch einfach eine Nachricht.
-Ich werde jede Nachricht lesen!</p>
+Ist etwas offensichtliches nicht gut aufbearbeitet?
+Willst du gar bei dem Projekt mitmachen?
+Nicht ärgern - sondern aktiv werden:
+Lass einfach weiter unten eine Nachricht da!</p>
 <h2 id="technisches">Technisches</h2>
 <p>Du willst wissen wie diese Seite entsteht? Bitteschön! 
-Die Schritte unten werden jede Nacht ausgeführt, damit stets die neuesten Entwicklungen hier zu Finden sind.
-Orchestriert wird das alles mit Hilfe vom guten alten <code>make</code> und <code>cron</code>.
-Falls du auch so ein Tech Enthusiast bist und mehr in die Details einsteigen willst, kontaktiere mich einfach!</p>
+Die Schritte unten werden jede Nacht ausgeführt, zuletzt am 25.07.2022 um 09:21 Uhr.
+Damit sind hier stets die neuesten Entwicklungen zu finden.
+Orchestriert wird das alles mit Hilfe von den guten alten <code>make</code> und <code>cron</code>.</p>
 <ol>
 <li>Die Daten, die auf dieser Seite bereitgestellt werden, stammen von <a href="https://www.parlament-berlin.de/opendata/pardok-wp18.xml">hier</a>.</li>
 <li>Dazu gibt es noch eine zusätzliche, von Hand geschriebene Datei mit Infos über Parteien und Abgeordnente.</li>
 <li>Mit wenigen cleveren Zeilen Code in <code>python</code> wird das <code>XML</code> gelesen und verarbeitet. Ausgespuckt werden <code>markdown</code> Dateien mit dem Inhalt den du hier siehst.</li>
 <li><code>mkdocs</code> baut daraus diesen Hochglanzinternetauftritt im <code>HTML</code> Format im <code>mkdocs-material</code> Theme.</li>
 <li>Dannach werden die Dateien nach nach <a href="https://github.com/kclemens/kclemens.github.io">GitHub</a> per <code>git</code> geschoben.</li>
-<li>Diese Schritte werden immer wieder, regelmäßig, von <code>cron</code> ausgeführt, zuletzt am {{ build_date_utc }}.</li>
 </ol>
 <h2 id="kontakt">Kontakt</h2>
-<p>Hast du Lob, Kritik, oder einen Vorschlag? Willst du sogar mitmachen? Nimm Kontakt auf! Hinterlasse eine Nachricht! Ich freue mich über jede Idee!</p>
-<div id="thanks" class="text" hidden="true">Danke für deine Nachricht!</div>
+<p>Hast du Lob, Kritik, oder einen Vorschlag? 
+Willst du besser verstehen was hier passiert oder sogar mitmachen? 
+Nimm Kontakt auf: Lass eine Nachricht da!</p>
+<div id="thanks" class="text" hidden="true">Vielen Dank für deine Nachricht!</div>
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 <form id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScr4G3vJgLtmLftXWwoz4pMfYxqSfwVYEFQ5Fhw09T58w6mhA/formResponse" method="post" accept-charset="utf-8" target="dummyframe">
     <textarea style="width:100%" rows="4" name="entry.2027502182"></textarea>
